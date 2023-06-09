@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript and jquery</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+
+   <div class="container">
+
+    <p id="p">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio, nihil maiores quos voluptatum aut repudiandae adipisci, odio quae, architecto cumque eius unde fugit totam maxime nostrum aliquid blanditiis suscipit iste minus dolore id quisquam numquam? Eum est iste voluptas!</p>
+    <button type="button" class="btn btn-warning" onclick="textChing()">click here</button>
+    <br>
+    <br>
+
+     <h5 id="font_s">Lorem ipsum dolor sit amet, Consequuntur, hic.</h5>
+      <button type="button" class="btn btn-danger" onclick="fontBig()">click here</button>
+
+<br>
+<br>
+        <h5 id="d_none">Lorem ipsum dolor sit amet, Consequuntur, hic.</h5>
+        <button type="button" class="btn btn-info" onclick="dis_none()">click here</button>
+        <br>
+        <br>
+
+        <h1 >JavaScript can show hidden HTML elements.</h1>
+        <p id="d_b" style="display: none; font-size: 25px;">hollo javascript</p>
+        <button type="button" class="btn btn-success" onclick="d_bloc()">click here</button>
+    <br>
+    <br>
+    <p id="onc">bangladesh</p>
+    <button type="button" class="btn btn-info" onclick="myName()">click here</button>
+
+
+    <hr>  
+    <h2>hide/show</h2>
+    <button type="button" class="btn btn-danger" onmouseover="hide()">Hide</button>
+    <button type="button" class="btn btn-info" onmouseover="show()">Show</button>
+    <p id="demo">Lorem ipsum dolor sit.</p>
+
+
+<hr>
+    <!-- Variable -->
+
+    <h1>Variable</h1>
+
+    <button type="button" class="btn btn-danger" onclick="add()" >click</button>
+    <h4 id="var"></h4>
+    <br><br>
+
+
+
+    <h2>Variable + addition</h2>
+    
+    <button type="button" class="btn btn-dark" onclick="add2()">addition</button>
+    <h4 id="var2"></h4>
+
+        <hr>
+
+        <!-- jquery start -->
+
+        <h1>Jquery start</h1>
+                <br><br>
+
+    <h2>Click the button to show alert</h2>
+    <button class="btn btn-warning">click show</button>
+    <br>
+    <h1>hide /show and toggle</h1>
+    <button type="button" id="hide" class="btn btn-danger">hide</button>
+    <button type="button" id="show" class="btn btn-dark">show</button>
+    <button type="button" id="toggle" class="btn btn-info">toggle</button>
+    <h3>click the hide and show</h3>
+    <br><br>
+    <hr>
+
+  <h1>All pragrap tage hide</h1>
+   <button class="btn btn-info">click</button>
+   <p>Lorem ipsum dolor sit amet.</p>
+   <p>Lorem ipsum dolor sit amet.</p>
+
+
+  <h1>All pragrap tage hide</h1>
+   <button class="btn btn-info">click</button>
+   <p id="moe">Lorem ipsum dolor sit amet.</p>
+   
+   <br>
+   <hr>
+   <button class="btn btn-info dbl">dblclick</button>
+   <p>dblclick Lorem ipsum dolor sit amet.</p>
+
+   <h2>fade in fade out fade toggle</h2>
+
+   <button id="fadi">fadein</button>
+   <div id="div1" style="background-color: red; width: 100px; height: 100px; display: none;"></div>
+   <br><br>
+
+
+   <button id="fado">fadeOut</button>
+   <div id="div2" style="background-color: red; width: 100px; height: 100px;"></div>
+   <br><br>
+   <button id="fadtog">fadeToggle</button>
+   <div id="div3" style="background-color: green; width: 300px; height: 100px;"></div>
+
+   <br><br>
+   <button id="fadto">fadeTo</button>
+   <div id="div4" style="background-color: rgb(25, 11, 27); width: 300px; height: 100px;"></div>
+
+   <hr>
+   <h1>Slide start</h1>
+   <button id="slid" class="btn btn-warning">SlideDown</button>
+   <div id="sli1" style="background-color: rgb(25, 11, 27); width: 300px; height: 200px;display: none;"></div>
+<br><br><br>
+<button id="slidu" class="btn btn-warning">SlideUp</button>
+<div id="sli2" style="background-color: rgb(162, 39, 179); width: 300px; height: 200px;"></div>
+<br><br><br>
+<button id="slidt" class="btn btn-warning">SlideToggle</button>
+<div id="sli3" style="background-color: rgb(162, 39, 179); width: 300px; height: 200px;"></div>
+<br>
+<br>
+<br>
+<hr>
+<h1>Animate start</h1>
+<button id="anim" class="btn btn-warning">Animate</button>
+<div id="ani1" style="background-color: rgb(19, 154, 10); width: 300px; height: 200px;position:absolute"></div>
+
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+<button id="anim2" class="btn btn-warning">Animate 2</button>
+<div id="ani2" style="background-color: rgb(19, 154, 10); width: 200px; height: 200px;position:absolute"></div>
+
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+
+
+
+
+</div>
+   <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html
